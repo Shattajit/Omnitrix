@@ -1,8 +1,8 @@
-# E-Commerce Application
+# Omnitrix
 
 ## Overview
 
-This project is a full-stack web application with a React frontend and a Node.js/Express.js backend. It includes features for user authentication, product management, category management, and integration with the Braintree payment gateway.
+This is basically an online e-commerce full-stack web application with a React frontend and a Node.js/Express.js backend. It includes features for user authentication, product management, category management, and integration with the Braintree payment gateway.
 
 ## Features
 
