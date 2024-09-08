@@ -60,3 +60,14 @@ This project is a full-stack web application with a React frontend and a Node.js
    ```bash
    npm start
 The server will be running on http://localhost:8080 (or your specified port).
+
+## API Endpoints
+Authentication
+
+- POST /api/v1/auth/register: Register a new user.
+- **Backend**: Node.js, Express
+- **Database**: MongoDB
+- **Authentication**: JSON Web Tokens (JWT)
+- **Payment Gateway**: Braintree
+- **File Upload**: Formidable
+- **Environment Variables**: dotenv
