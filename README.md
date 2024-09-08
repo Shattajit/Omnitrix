@@ -7,10 +7,15 @@ This is basically an online e-commerce full-stack web application with a React f
 ## Features
 
 - **User Authentication**: Register, login, and update profiles. Secure routes with JWT and role-based access.
+  
 - **Category Management**: Create, update, delete, and list product categories.
+  
 - **Product Management**: CRUD operations for products, including image upload, filtering, and pagination.
+  
 - **Order Management**: Place orders, view order details, and update order status.
+  
 - **Payment Integration**: Process payments using Braintree.
+  
 - **Search and Filters**: Search products by keyword and filter by category and price range.
 
 ## Technologies Used
