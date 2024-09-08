@@ -64,7 +64,7 @@ The server will be running on http://localhost:8080 (or your specified port).
 ## API Endpoints
 Authentication
 
-- POST /api/v1/auth/register: Register a new user.
+- POST `/api/v1/auth/register`: Register a new user.
 - **Backend**: Node.js, Express
 - **Database**: MongoDB
 - **Authentication**: JSON Web Tokens (JWT)
