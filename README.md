@@ -61,48 +61,79 @@ This project is a full-stack web application with a React frontend and a Node.js
    npm start
 The server will be running on http://localhost:8080 (or your specified port).
 
+
 ## API Endpoints
+
 Authentication
 
-- POST  `/api/v1/auth/register`: Register a new user.
-- 
-- POST  `/api/v1/auth/login`: Log in a user.
-- 
-- POST  `/api/v1/auth/forgot-password`: Request a password reset.
+- POST `/api/v1/auth/register`: Register a new user.
+  
+- POST `/api/v1/auth/login`: Log in a user.
+  
+- POST `/api/v1/auth/forgot-password`: Request a password reset.
+
+  
 
 Categories
 
--POST  `/api/v1/category/create-category`: Create a new category.
--PUT  `/api/v1/category/update-category/:id`: Update an existing category.
+-POST `/api/v1/category/create-category`: Create a new category.
+
+-PUT `/api/v1/category/update-category/:id`: Update an existing category.
+
 -GET `/api/v1/category/get-category`: Get all categories.
+
 -GET `/api/v1/category/single-category/:slug`: Get a single category by slug.
+
 -DELETE `/api/v1/category/delete-category/:id`: Delete a category.
+
+
 
 Products
 
 -POST `/api/v1/product/create-product`: Create a new product.
+
 -PUT `/api/v1/product/update-product/:pid`: Update an existing product.
+
 -GET `/api/v1/product/get-product`: Get all products.
+
 -GET `/api/v1/product/get-product/:slug`: Get a single product by slug.
+
 -GET `/api/v1/product/product-photo/:pid`: Get a product's photo.
+
 -DELETE `/api/v1/product/delete-product/:pid`: Delete a product.
+
 -POST `/api/v1/product/product-filters`: Filter products by category and price.
+
 -GET `/api/v1/product/product-count`: Get the total count of products.
+
 -GET `/api/v1/product/product-list/:page`: Get products with pagination.
+
 -GET `/api/v1/product/search/:keyword`: Search products by keyword.
+
 -GET `/api/v1/product/related-product/:pid/:cid`: Get related products.
+
 -GET `/api/v1/product/product-category/:slug`: Get products by category.
+
+
 
 Orders
 
 -GET `/api/v1/auth/orders`: Get orders for the logged-in user.
+
 -GET `/api/v1/auth/all-orders`: Get all orders (admin only).
+
 -PUT `/api/v1/auth/order-status/:orderId`: Update the status of an order.
+
+
 
 Payment
 
 -GET `/api/v1/product/braintree/token`: Get Braintree payment token.
+
 -POST `/api/v1/product/braintree/payment`: Process Braintree payment.
 
+
+
 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
