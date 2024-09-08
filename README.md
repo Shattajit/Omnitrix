@@ -4,6 +4,7 @@
 
 This is basically an online e-commerce full-stack web application with a React frontend and a Node.js/Express.js backend. It includes features for user authentication, product management, category management, and integration with the Braintree payment gateway.
 
+
 ## Features
 
 - **User Authentication**: Register, login, and update profiles. Secure routes with JWT and role-based access.
@@ -18,14 +19,22 @@ This is basically an online e-commerce full-stack web application with a React f
   
 - **Search and Filters**: Search products by keyword and filter by category and price range.
 
+  
+
 ## Technologies Used
 
 - **Frontend**: React (assumed from the client folder)
+  
 - **Backend**: Node.js, Express
+  
 - **Database**: MongoDB
+  
 - **Authentication**: JSON Web Tokens (JWT)
+  
 - **Payment Gateway**: Braintree
+  
 - **File Upload**: Formidable
+  
 - **Environment Variables**: dotenv
 
 ## Getting Started
@@ -33,7 +42,9 @@ This is basically an online e-commerce full-stack web application with a React f
 ### Prerequisites
 
 - Node.js and npm
+  
 - MongoDB
+  
 - Braintree account (for payment processing)
 
 ### Installation
@@ -50,6 +61,7 @@ This is basically an online e-commerce full-stack web application with a React f
    npm install
    
 3. **Create a .env file**
+   
    Create a .env file in the root directory and add the following environment variables:
 
    ```bash
@@ -60,11 +72,13 @@ This is basically an online e-commerce full-stack web application with a React f
    BRAINTREE_PUBLIC_KEY=<your-braintree-public-key>
    BRAINTREE_PRIVATE_KEY=<your-braintree-private-key>
 
-4. **Run the application**
+5. **Run the application**
 
    ```bash
    npm start
+   
 The server will be running on http://localhost:8080 (or your specified port).
+
 
 
 ## API Endpoints
