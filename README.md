@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a full-stack e-commerce application built with Node.js, Express, and MongoDB. It features user authentication, product management, category management, and integration with the Braintree payment gateway.
+This project is a full-stack web application with a React frontend and a Node.js/Express.js backend. It includes features for user authentication, product management, category management, and integration with the Braintree payment gateway.
 
 ## Features
 
@@ -38,3 +38,8 @@ This project is a full-stack e-commerce application built with Node.js, Express,
    ```bash
    git clone <repository-url>
    cd <project-directory>
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
