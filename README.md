@@ -64,14 +64,14 @@ The server will be running on http://localhost:8080 (or your specified port).
 ## API Endpoints
 Authentication
 
--POST `/api/v1/auth/register`: Register a new user.
--POST `/api/v1/auth/login`: Log in a user.
--POST `/api/v1/auth/forgot-password`: Request a password reset.
+-POST  `/api/v1/auth/register`: Register a new user.
+-POST  `/api/v1/auth/login`: Log in a user.
+-POST  `/api/v1/auth/forgot-password`: Request a password reset.
 
 Categories
 
--POST `/api/v1/category/create-category`: Create a new category.
--PUT `/api/v1/category/update-category/:id`: Update an existing category.
+-POST  `/api/v1/category/create-category`: Create a new category.
+-PUT  `/api/v1/category/update-category/:id`: Update an existing category.
 -GET `/api/v1/category/get-category`: Get all categories.
 -GET `/api/v1/category/single-category/:slug`: Get a single category by slug.
 -DELETE `/api/v1/category/delete-category/:id`: Delete a category.
