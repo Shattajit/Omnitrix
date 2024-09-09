@@ -23,7 +23,7 @@ This is basically an online e-commerce full-stack web application with a React f
 
 ## Technologies Used
 
-- **Frontend**: React (assumed from the client folder)
+- **Frontend**: React 
   
 - **Backend**: Node.js, Express
   
