@@ -83,7 +83,7 @@ The server will be running on http://localhost:8080 (or your specified port).
 
 ## API Endpoints
 
-Authentication
+### Authentication
 
 - POST `/api/v1/auth/register`: Register a new user.
   
@@ -93,7 +93,7 @@ Authentication
 
   
 
-Categories
+### Categories
 
 - POST `/api/v1/category/create-category`: Create a new category.
 
@@ -107,7 +107,7 @@ Categories
 
 
 
-Products
+### Products
 
 - POST `/api/v1/product/create-product`: Create a new product.
 
@@ -135,7 +135,7 @@ Products
 
 
 
-Orders
+### Orders
 
 - GET `/api/v1/auth/orders`: Get orders for the logged-in user.
 
@@ -145,7 +145,7 @@ Orders
 
 
 
-Payment
+### Payment
 
 - GET `/api/v1/product/braintree/token`: Get Braintree payment token.
 
